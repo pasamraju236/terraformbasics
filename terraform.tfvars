@@ -1,0 +1,7 @@
+vpc_name = "vpc_terraform"
+cidr_block = "10.1.0.0/16"
+env = "prod"
+owner = "rajesh pasam"
+subnet_1_cidr = "10.1.1.0/24"
+subnet_2_cidr = "10.1.2.0/24"
+subnet_3_cidr = "10.1.3.0/24"
