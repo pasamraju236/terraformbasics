@@ -8,6 +8,9 @@ resource "aws_vpc" "vpc_terraform" {
     owner = var.owner
     environment = var.env
     }
+     depends_on = [
+    aws_s3_bucket.rajeshbucket1,
+  ]
 }
 
 
